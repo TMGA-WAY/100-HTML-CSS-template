@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(13, 179, 40);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+    max-width: 300px;
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgb(0,0,0, 0.5); 
+}
+
+.level-control{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.level-control label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.level-control textarea,
+.level-control input,
+.level-control select{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    width: 95%;
+    display: block;
+}
+
+.level-control input[type="radio"],
+.level-control input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+
+button{
+    background-color: #05c46b;
+    border: 1px solid #777;
+    font-family: inherit;
+    font-size: 21px;
+    display:  block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
